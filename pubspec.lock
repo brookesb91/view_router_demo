@@ -166,9 +166,11 @@ packages:
   view_router:
     dependency: "direct main"
     description:
-      path: "../view_router"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: ac60910476133e0b33acd349e304003497c917fd
+      url: "git://github.com/brookesb91/view_router.git"
+    source: git
     version: "0.0.1"
 sdks:
   dart: ">=2.14.0 <3.0.0"

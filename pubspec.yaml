@@ -34,7 +34,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   view_router:
-    path: ../view_router/
+    git:
+      url: git://github.com/brookesb91/view_router.git
 
 dev_dependencies:
   flutter_test:
